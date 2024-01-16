@@ -1,2 +1,2 @@
-# Linking and Testing Visual Studio Code to GitHub
-First visual studio code linked rep to GitHub.
+# Linking Code from Visual Studio Code to GitHub
+Linking Visual Studio Code to GitHub.
