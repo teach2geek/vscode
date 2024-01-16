@@ -8,8 +8,8 @@ def generate_ec2_names(department, instances):
     unique_names = set()
     chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%()'  # All possible characters
     while len(unique_names) < instances:
-        random_part = ''.join(random.choices(chars, k=8))
-        name = f"{department}-{random_part}"
+        random_chars = ''.join(random.choices(chars, k=8))
+        name = f"{department}-{random_chars}"
         unique_names.add(name)
     
     return list(unique_names)
